@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     long virtualAddressSize = atoi(argv[1]) * 1024 * 1024;
     long pageSize = atoi(argv[2]) * 1024;
 
-    // virtual address in bytes
+    // virtual address in decimal
     int virtualAddress = atoi(argv[3]);
 
     int numPages = virtualAddressSize / pageSize;
